@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 
+@st.cache
 st.title("EEG Channel Selection for BCI Competition Dataset")
 st.set_page_config(page_title="EEG Channel Selection", layout="wide")
 
