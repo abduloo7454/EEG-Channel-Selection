@@ -25,7 +25,7 @@ dataset_name = st.sidebar.selectbox("Select Dataset", list(data_files.keys()))
 df = dfs[dataset_name]
 
 # Set the title dynamically based on the selected dataset
-st.title(f"EEG Channel Selection for k-adaptEEGCS: {dataset_name}")
+st.title(f"(Method=k-adaptEEGCS)EEG Channel Selection for: {dataset_name}")
 
 # Sidebar for centrality score selection
 clusters = st.sidebar.selectbox("Select Centrality Score", df["Different Clusters"].unique())
