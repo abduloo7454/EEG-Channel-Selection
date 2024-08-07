@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 
 st.title("EEG Channel Selection for BCI competition Dataset")
-st.set_page_config(page_title="EEG Channel Selection", layout="wide")
+# st.set_page_config(page_title="EEG Channel Selection", layout="wide")
 
 df1 = pd.read_excel("G-EEGCS-Streamlit/IV_I_Calib_Subject-a.xlsx")
 df2 = pd.read_excel("G-EEGCS-Streamlit/IV_I_Calib_Subject-b.xlsx")
