@@ -2,7 +2,6 @@ import pandas as pd
 import streamlit as st
 
 @st.cache
-st.title("EEG Channel Selection for BCI Competition Dataset")
 st.set_page_config(page_title="EEG Channel Selection", layout="wide")
 
 BCI_Competition_IV_I_Calib_Subject-a = pd.read_excel("G-EEGCS-Streamlit/IV_I_Calib_Subject-a.xlsx")
