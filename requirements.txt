@@ -1,1 +1,16 @@
 openpyxl
+pandas
+numpy
+streamlit
+patsy
+pip
+plotly
+plotly-express
+python-dateutil
+pytz
+retrying
+scipy
+setuptools
+six
+statsmodels
+openpyxl
