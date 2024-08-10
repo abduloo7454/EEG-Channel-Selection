@@ -28,7 +28,7 @@ df = dfs[dataset_name]
 st.title(f"EEG Channel Selection for k-adaptEEGCS Method: {dataset_name}")
 
 # Sidebar for centrality score selection
-clusters = st.sidebar.selectbox("Select Centrality Score", df["Different Clusters"].unique())
+clusters = st.sidebar.selectbox("Select Cluster", df["Different Clusters"].unique())
 
 # Filter dataframe
 filtered_df = df[df["Different Clusters"] == clusters]
